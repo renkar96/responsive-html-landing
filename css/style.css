@@ -1,0 +1,214 @@
+/* impor @*/ /* ESTILOS GENERALES */
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+/* reseteo universal de margin y padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+  background-color: #35858B;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* ESTILOS GENERALES */
+/* HEADER */
+.header {
+  width: 100%;
+}
+.header .nav-size {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.header .nav-size .img-nav {
+  width: 120px;
+}
+.header .nav-size .nav-style {
+  justify-content: center;
+}
+.header .nav-size .nav-style .nav-link {
+  font-size: 20px;
+  color: #000000;
+}
+
+/* HEADER */
+/* FOOTER */
+.footer .footer-nav {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.footer .footer-nav .img-redes {
+  width: 8%;
+  margin: auto;
+}
+.footer .container-footer {
+  background-color: #FFFFFF;
+}
+.footer .container-footer .img-logo {
+  width: 100%;
+  margin: auto;
+}
+.footer .container-footer .img-redes {
+  width: 8%;
+  margin: auto;
+}
+.footer .container-footer a {
+  text-decoration: none;
+}
+.footer .Copyright {
+  background-color: #35858B;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+/* FOOTER */
+/* INDEX */
+main .bienvenida {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px rgb(0, 0, 1);
+}
+main .video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+main .video .video-container {
+  width: 100%;
+  height: auto;
+}
+main .card-size {
+  margin-top: 10px;
+}
+main .card-size .img-card {
+  width: 30%;
+  margin: auto;
+  padding: 20px 0px;
+}
+main .card-nosotros {
+  margin-top: 10px;
+  text-align: center;
+}
+main .card-nosotros .img-card {
+  width: 30%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+/* INDEX */
+/* SERVICIOS */
+main .container .photo {
+  display: flex;
+  justify-content: center;
+}
+main .container .photo .img-container {
+  width: 100%;
+  height: auto;
+}
+main .container .card-size {
+  margin-top: 10px;
+}
+main .container .card-size .img-card {
+  width: 30%;
+  margin: auto;
+  padding: 20px 0px;
+}
+main .container .video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* SERVICIOS */
+/* NOSOTROS */
+main .photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+main .photo .img-container {
+  width: 100%;
+  height: auto;
+}
+main .container .card-size {
+  margin-top: 10px;
+}
+main .container .card-size .img-card {
+  width: 30%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+/* NOSOTROS */
+/* PROYECTOS */
+main .photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+main .photo .img-container {
+  width: 100%;
+  height: auto;
+}
+main .container .card-size {
+  margin-top: 10px;
+}
+main .container .card-size .img-card {
+  width: 30%;
+  margin: auto;
+  padding: 20px 0px;
+}
+main .container .card-size {
+  margin-top: 10px;
+}
+
+/* PROYECTOS */
+/* PROYECTOS */
+main .photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+main .photo .img-container {
+  width: 100%;
+  height: auto;
+}
+main .container .container-forms {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+main .container .maps-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

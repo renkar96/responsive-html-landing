@@ -1,0 +1,31 @@
+/* SERVICIOS */
+main{
+    .container{
+        .photo {
+        display: flex;
+        justify-content: center;
+    
+            .img-container {
+            width: 100%;
+            height: auto;
+            }
+        }
+        .card-size{ 
+        margin-top: 10px;
+            .img-card {
+            width: 30%;
+            margin: auto;
+            padding: 20px 0px;
+         }
+        }
+    }
+    .container{
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            padding: 10px;
+        }
+    }
+}
+/* SERVICIOS */

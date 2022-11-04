@@ -1,0 +1,25 @@
+/* NOSOTROS */
+main{
+    .photo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .img-container {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .container {
+        .card-size{ 
+        margin-top: 10px;
+
+            .img-card {
+            width: 30%;
+            margin: auto;
+            padding: 20px 0px;
+            }
+        }
+    }
+}
+/* NOSOTROS */

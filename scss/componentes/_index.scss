@@ -1,0 +1,44 @@
+/* INDEX */
+main {  
+    .bienvenida{
+        color: white;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-shadow: 0 0 8px rgba(0,0,0.8);
+        
+    }
+    .video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+
+        .video-container {
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+    .card-size{ 
+        margin-top: 10px;
+
+        .img-card {
+            width: 30%;
+            margin: auto;
+            padding: 20px 0px;
+        }
+    }
+    .card-nosotros{
+        margin-top: 10px;
+        text-align: center;
+
+        .img-card {
+            width: 30%;
+            margin: auto;
+            padding: 20px 0px;
+        }
+    }
+}
+/* INDEX */

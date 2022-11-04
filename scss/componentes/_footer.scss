@@ -1,0 +1,37 @@
+/* FOOTER */
+.footer {
+    .footer-nav{
+        background-color: $bg-color-footer;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 20px 0px;
+        text-align: center;
+        
+
+        .img-redes {
+            width: 8%;
+            margin: auto;
+        }
+    }
+    .container-footer{
+        background-color:$bg-color-footer;
+            .img-logo {
+                width: 100%;
+                margin: auto;
+            }
+            .img-redes {
+                width: 8%;
+                margin: auto;
+            }
+            a{
+                text-decoration: none;
+            }
+    }
+    .Copyright{
+        background-color: $bg-color-main;
+        padding: 20px;
+        color: $color-segundario;
+    }
+}
+/* FOOTER */

@@ -1,0 +1,35 @@
+/* ESTILOS GENERALES */
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import '../base/variables';
+@import '../base/listas';
+
+
+/* reseteo universal de margin y padding por defecto */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Signika', sans-serif;
+    background-color: $bg-color-main;
+    overflow-x: hidden;
+
+}
+h1 {
+    text-align: center;
+    font-size: nth($font-size,1);
+    
+}
+h2 {
+    text-align: center;
+    font-size: nth($font-size,2);
+
+}
+
+p {
+    text-align: justify;
+    font-size: nth($font-size,3);
+}
+
+/* ESTILOS GENERALES */
